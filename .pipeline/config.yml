@@ -12,11 +12,7 @@
 ---
  general:
     pipeline: "sap-cloud-sdk" 
-    buildTool: "mta"
-    gitCredentialsId: 'mulyaditju' #gitCredentialsIdTechnicalUser
-    globalExtensionsRepository: 'https://github.wdf.sap.corp/MA/cloud-s4-sdk-pipeline-extensions.git'
-    globalExtensionsVersion: 'v37'
-    globalExtensionsRepositoryCredentialsId: 'mulyaditju'    
+    buildTool: "mta"    
  stages:
     Build:
       mavenExecuteStaticCodeChecks: false
